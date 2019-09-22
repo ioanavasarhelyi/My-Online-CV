@@ -639,4 +639,22 @@ body {
     background-color: #555;
   }
 
+ .fab.fa-facebook-f.shadow.animated:hover {
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  .fab.fa-linkedin-in.shadow.animated:hover {
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+  }
+
+  .fab.fa-instagram.shadow.animated:hover {
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+  }
+
+  .fas.fa-envelope.shadow.animated:hover {
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+  }
   
