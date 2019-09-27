@@ -104,6 +104,24 @@ const formData = document.querySelector(".contact-form");
  function sendMessage() {
   if(nameText && emailText && messageText) {
        formData.reset();
-       
-  }      
+     }      
   }
+
+ // backgorund music
+
+
+  let musicOn = document.querySelector(".fas.fa-volume-mute");
+  let musicOff = document.querySelector(".fas.fa-volume-up");
+  let music = document.querySelector("audio");
+  musicOn.addEventListener("click", () => {
+    music.volume  = 0.2;
+    music.play();
+    musicOn.style.display = "none";
+    musicOff.style.display = "inline";
+  })
+
+  musicOff.addEventListener("click", () => {
+    music.pause();
+    musicOff.style.display= "none";
+    musicOn.style.display = "inline";
+  })
