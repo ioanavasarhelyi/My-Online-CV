@@ -114,7 +114,7 @@ const formData = document.querySelector(".contact-form");
   let musicOff = document.querySelector(".fas.fa-volume-up");
   let music = document.querySelector("audio");
   musicOn.addEventListener("click", () => {
-    music.volume  = 0.2;
+    music.volume  = 0.1;
     music.play();
     musicOn.style.display = "none";
     musicOff.style.display = "inline";
