@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
   }
   * {
@@ -48,8 +48,8 @@ body {
     text-align: center;
   }
   .sidebar-nav li:first-child {
-    margin-top: 30px;
-    /* background-image: url("src/poza profil4.jpg"); */
+    margin-top: 20px;
+    
   }
   
   .sidebar-nav a {
@@ -60,7 +60,7 @@ body {
   }
   .sidebar-nav li {
     margin: 10px auto;
-    padding: 5px;
+    padding: 4px;
   }
   
   #home {
@@ -79,11 +79,10 @@ body {
     background-size: cover;
     background-position: center;
     height: 600px;
-    padding: 100px;
+    padding: 40px;
   }
  }
   .header {
-    /* text-align: center; */
     width: 80%;
     margin: 25% auto;
   }
@@ -100,6 +99,12 @@ body {
   @media (min-width: 700px) {
     .header p {
       display: block;
+    }
+       .header h1 {
+      font-size: 47px;
+    }
+    .header h4 {
+      font-size: 26px;
     }
   }
   #about span {
@@ -201,7 +206,7 @@ body {
   #professional-trainings p,
   #experience p,
   #education p {
-    margin: 0 10px 30px 20px;
+    margin: 10px 10px 30px 20px;
   }
 
   @media(min-width: 768px ) {
