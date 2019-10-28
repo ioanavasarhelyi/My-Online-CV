@@ -76,6 +76,7 @@ body {
     background-position: center;
     height: 100%;
     padding: 10px;
+    position: relative;
   }
 
  @media(min-width: 600px) {
