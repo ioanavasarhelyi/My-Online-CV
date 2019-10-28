@@ -228,6 +228,11 @@ body {
     margin: 10px 10px 30px 20px;
   }
 
+#professional-trainings p  a {
+    text-decoration: none;
+    padding-left: 15px;
+     }
+
   @media(min-width: 768px ) {
     #professional-trainings p,
   #experience p,
